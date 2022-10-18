@@ -16,7 +16,7 @@ const Header = () => {
         <Link to="/">
          <img 
           className='header__logo'
-          src={require("../assets/images/yourTubeIcon.png")} alt="YourTube" />
+          src={require("./assets/images/yourTubeIcon.png")} alt="YourTube" />
         </Link>
       </div>
       <div className='header__input'>
@@ -31,7 +31,7 @@ const Header = () => {
         <VideoCall className="header__icon" /> 
         <AppsIcon  className="header__icon"/> 
         <NotificationIcon className="header__icon" />
-        <Avatar src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F3a%2FCat03.jpg%2F1200px-Cat03.jpg&imgrefurl=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fcat&tbnid=hMjxy8pUhhc4QM&vet=12ahUKEwjI8K_Y9qn6AhXKB1MKHWzXBvkQMygAegUIARDcAQ..i&docid=3aBlXpmFZqFG2M&w=1200&h=1199&q=cat&ved=2ahUKEwjI8K_Y9qn6AhXKB1MKHWzXBvkQMygAegUIARDcAQ"/>
+        <Avatar src={require('./assets/images/profile.png')}/>
       </div>
     </div>
   )
