@@ -1,4 +1,5 @@
 $hoverIconColor : #cd9d00;
+$bgHColor: #a9c4cd;
 @mixin hoveredSideBarStyles() {
         .sidebarRow__icon {
             color: $hoverIconColor ;
@@ -14,11 +15,11 @@ $hoverIconColor : #cd9d00;
     padding: 10px 20px;
     &:hover {
         cursor: pointer;
-        background-color: lightgray;
+        background-color: $bgHColor;
        @include hoveredSideBarStyles()
     }
     &.selected {
-        background-color: lightgray;
+        background-color: $bgHColor;
         @include hoveredSideBarStyles()
     }
 }
